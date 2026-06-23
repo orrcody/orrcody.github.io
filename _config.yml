@@ -28,7 +28,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Research Economist"
   location         : #
-  employer         : "Center for Economic Studies, \nU.S. Census Bureau"
+  employer         : |
+    Center for Economic Studies,  
+    U.S. Census Bureau  
   uri              : # URL
   email            : "cody.orr@census.gov" 
 
@@ -84,7 +86,7 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  peer_reviewed:
+  peer-reviewed:
     title: 'Peer-Reviewed Publications'
   working-papers:
     title: 'Working Papers'    
@@ -228,10 +230,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
