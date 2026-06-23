@@ -3,7 +3,7 @@ title: "Estimating the Graduate Coverage of Post-Secondary Employment Outcomes"
 collection: publications
 category: working-papers
 permalink: /publication/pseo_cov
-excerpt: 'This paper proposes a new methodology for estimating the coverage rate of the Post-Secondary Employment Outcomes data product (PSEO), both as a share of new graduates and as a share of total working-age degree holders in the United States. This paper also assesses how representative PSEO is of the broader population of college graduates across an array of institutional and individual characteristics.'
+excerpt: 'This paper proposes a new methodology for estimating the coverage rate of the Post-Secondary Employment Outcomes data product (PSEO) and assesses how representative PSEO is of the broader population of college graduates.'
 date: 2025-09-01
 coauthors: #
 venue: 'CES Working Paper Series'
