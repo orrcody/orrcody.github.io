@@ -5,7 +5,7 @@ category: in-progress
 permalink: /publication/pseo_bfs
 excerpt: "This paper uses administrative data to document the business formation activities of postsecondary graduates."
 date: 2026-06-23
-coauthors: Joint with Emin Dinlersoz and Andrew Foote
+coauthors: "Emin Dinlersoz and Andrew Foote"
 venue: #
 paperurl: #
 publishedurl: #
