@@ -62,11 +62,11 @@
     {% if links_array.size > 0 %}
       <p>
         {% for link in links_array %}
-          {% unless forloop.last %}
-            {{ link }}</a> | 
-          {% else %}
+          {% if forloop.last %}
             {{ link }}</a>
-          {% endunless %}
+          {% else %}
+            {{ link }}</a> | 
+          {% endif %}
         {% endfor %}
       </p>
     {% endif %}
