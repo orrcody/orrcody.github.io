@@ -94,8 +94,8 @@
 
   {% capture download_links %}
     {% if post.paperurl %}<a href="{{ post.paperurl }}">Download Paper</a>{% endif %}
-    {% if post.slidesurl %}<a href="{{ post.publishedurl }}">Published Version</a>{% endif %}
-    {% if post.bibtexurl %}<a href="{{ post.appendixurl }}">Appendix</a>{% endif %}
+    {% if post.publishedurl %}<a href="{{ post.publishedurl }}">Published Version</a>{% endif %}
+    {% if post.appendixurl %}<a href="{{ post.appendixurl }}">Appendix</a>{% endif %}
   {% endcapture %}
   
   {% assign links_array = download_links | strip | split: '</a>' %}
