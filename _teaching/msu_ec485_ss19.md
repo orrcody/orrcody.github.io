@@ -8,4 +8,4 @@ date: 2019-01-01
 location: "East Lansing, MI"
 ---
 
-The intersection of economics and education with a focus on U.S. education policy. Human capital, education production, and education reforms. <a src="files/syllabi/EC485-Syllabus-SS19.pdf">Syllabus</a>
+The intersection of economics and education with a focus on U.S. education policy. Human capital, education production, and education reforms. <a href="../files/syllabi/EC485-Syllabus-SS19.pdf">Syllabus</a>
