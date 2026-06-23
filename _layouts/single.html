@@ -43,7 +43,7 @@ layout: default
         {% if page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i> ({{ page.date | default: "1900-01-01" | date: "%Y" }}) </p>
         {% elsif page.date %}
-          <p>Latest draft: <i>{{ page.venue }}</i> ({{ page.date | default: "1900-01-01" | date: "%B %Y" }}) </p>
+          <p>Latest draft: <i>{{ page.venue }}</i> {{ page.date | default: "1900-01-01" | date: "%B %Y" }} </p>
         {% endif %} 
 
       {% if page.paperurl or page.publishedurl or page.appendixurl %}
