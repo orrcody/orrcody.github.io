@@ -36,16 +36,11 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date and page.paperurl %}
-          {% if page.coauthors %}
-            <p> Joint with {{ page.coauthors }}. </p>
-          {% endif %}
-          <p>Published in <i>{{ page.venue }}</i> ({{ page.date | default: "1900-01-01" | date: "%Y" }}). <a href="{{ page.paperurl }}">Download Paper</a> </p>
-        {% elsif page.date and page.paperurl %}
-          {% if page.coauthors %}
-            <p> Joint with {{ page.coauthors }}. </p>
-          {% endif %}
-          <p>Available online: {{ page.date | default: "1900-01-01" | date: "%B %Y" }}. <a href="{{ page.paperurl }}">Download Paper</a> </p>
+        {% if page.coauthors %}
+          <p> Joint with {{ page.coauthors }}. </p>
+        {% endif %}
+        {% if page.venue and page.date %}
+          <p>Published in <i>{{ page.venue }}</i> ({{ page.date | default: "1900-01-01" | date: "%Y" }}) </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}    
@@ -54,6 +49,25 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+
+        {% capture download_links %}
+          {% if page.paperurl %}<a href="{{ page.paperurl }}">Download Paper</a>{% endif %}
+          {% if page.publishedurl %}<a href="{{ page.publishedurl }}">Published Version</a>{% endif %}
+          {% if page.appendixurl %}<a href="{{ page.appendixurl }}">Appendix</a>{% endif %}
+        {% endcapture %}
+        
+        {% assign links_array = download_links | strip | split: '</a>' %}
+        {% if links_array.size > 0 %}
+          <p>
+            {% for link in links_array %}
+              {% unless forloop.last %}
+                {{ link }}</a> | 
+              {% else %}
+                {{ link }}</a>
+              {% endunless %}
+            {% endfor %}
+          </p>
+        {% endif %}
 
         {% if page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
