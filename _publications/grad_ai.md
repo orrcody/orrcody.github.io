@@ -4,7 +4,7 @@ collection: publications
 category: in-progress
 permalink: /publication/grad_ai
 excerpt: "This paper uses PSEO and LEHD data to estimate the effects of AI exposure on recent college graduates."
-date: #
+date: 2026-06-23
 coauthors: Joint with Lee Tucker and Lawrence Warren
 venue: #
 paperurl: #
