@@ -3,7 +3,7 @@ title: "Returns to School Spending in Rural America: Evidence from Wisconsin’s
 collection: publications
 category: working-papers
 permalink: /publication/rural_wi_spending
-excerpt: 'We study the effects of increased school spending caused by Wisconsin's Sparsity Aid Program. The increased spending had little effect on standardized test scores, but modestly increased college enrollment and completion for students with a low likelihood of attending or completing college'
+excerpt: 'We study the effects of increased school spending caused by Wisconsin's Sparsity Aid Program. The increased spending had little effect on standardized test scores, but modestly increased college enrollment and completion for students with a low likelihood of attending or completing college.'
 date: 2023-02-01
 coauthors: 'Joint with Riley Acton and Salem Rogers'
 venue: 'EdWorkingPaper and IZA'
