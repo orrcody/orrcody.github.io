@@ -7,7 +7,7 @@ excerpt: 'This paper proposes a new methodology for estimating the coverage rate
 date: 2025-09-01
 coauthors: #
 venue: 'CES Working Paper Series'
-paperurl: 'https://github.com/orrcody/orrcody.github.io/blob/master/files/publications/CES-WP-25-61.pdf'
+paperurl: 'https://orrcody.github.io/files/publications/CES-WP-25-61.pdf'
 publishedurl: 'https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-61.html'
 appendixurl: #
 citation: 'Orr, Cody. (2025). &quot;Estimating the Graduate Coverage of Post-Secondary Employment Outcomes.&quot; <i>CES Working Paper Series</i>. CES-25-61. https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-61.html'
