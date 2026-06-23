@@ -2,7 +2,7 @@
 title: "Clocking into Work and Out of Class: College Student Enrollment, Labor Supply, and Borrowing"
 collection: publications
 category: working-papers
-permalink: /publication/clocking_into_work.md
+permalink: /publication/clocking_into_work
 excerpt: "This paper uses survey data and a dynamic structural model to study how college students choose their credit hour enrollment, labor supply, and borrowing, paying particular attention to the role of wages, financial resources and beliefs."
 date: 2021-04-26
 coauthors: #
