@@ -5,6 +5,7 @@ category: peer-reviewed
 permalink: /publication/eho_elasticity
 excerpt: 'We examine the evolution of this elasticity over the last four decades. We find robust evidence that the elasticity weakly increased between 2000 and 2020, representing a striking reversal from the sizable declines for single and married women between 1979 and 2000.'
 date: 2025-06-06
+coauthors: 'Todd Elder and Steven J. Haider'
 venue: 'Journal of Human Resources'
 paperurl: 'https://orrcody.github.io/files/publications/ElasticityOverTime-EHO.pdf'
 citation: 'Elder, Todd, Steven J. Haider, and Cody Orr. (2025). &quot;The Evolution of the Wage Elasticity of Labor Supply over Time.&quot; <i>Journal of Human Resources</i>. Forthcoming. https://doi.org/10.3368/jhr.0724-13703R1'
