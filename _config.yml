@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Research Economist"
   location         : #
-  employer         : "Center for Economic Studies, U.S. Census Bureau"
+  employer         : "Center for Economic Studies, \nU.S. Census Bureau"
   uri              : # URL
   email            : "cody.orr@census.gov" 
 
