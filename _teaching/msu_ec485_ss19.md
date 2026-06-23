@@ -2,7 +2,7 @@
 title: "EC 485: Economics of Education"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/msu_ec485
+permalink: /teaching/msu_ec485_ss19
 venue: "Michigan State University"
 date: 2019-01-01
 location: "East Lansing, MI"
