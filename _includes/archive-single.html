@@ -88,10 +88,6 @@
     {% endif %}
     {% endcomment %}
 
-    {% if post.citation %}
-  <p><strong>Recommended citation:</strong> <br />{{ post.citation }}</p>
-{% endif %}
-
   {% capture download_links %}
     {% if post.paperurl %}<a href="{{ post.paperurl }}">Download Paper</a>{% endif %}
     {% if post.publishedurl %}<a href="{{ post.publishedurl }}">Published Version</a>{% endif %}
