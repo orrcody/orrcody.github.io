@@ -88,9 +88,28 @@
     {% endif %}
     {% endcomment %}
 
-    {% if post.paperurl %}
-      <p><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% endif %}
+    {% if post.citation %}
+  <p><strong>Recommended citation:</strong> <br />{{ post.citation }}</p>
+{% endif %}
+
+  {% capture download_links %}
+    {% if post.paperurl %}<a href="{{ post.paperurl }}">Download Paper</a>{% endif %}
+    {% if post.slidesurl %}<a href="{{ post.publishedurl }}">Published Version</a>{% endif %}
+    {% if post.bibtexurl %}<a href="{{ post.appendixurl }}">Appendix</a>{% endif %}
+  {% endcapture %}
+  
+  {% assign links_array = download_links | strip | split: '</a>' %}
+  {% if links_array.size > 0 %}
+    <p>
+      {% for link in links_array %}
+        {% unless forloop.last %}
+          {{ link }}</a> | 
+        {% else %}
+          {{ link }}</a>
+        {% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
 
   </article>
 </div>
