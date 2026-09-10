@@ -7,8 +7,8 @@ excerpt: "This paper uses PSEO and LEHD data to estimate the effects of AI expos
 date: 2026-09-10
 coauthors: "Lee C. Tucker and Lawrence Warren"
 venue: 'CES Working Paper Series'
-paperurl: 'https://www.census.gov/library/working-papers/2025/adrm/CES-WP-26-56.pdf'
-publishedurl: 'https://www.census.gov/library/working-papers/2025/adrm/CES-WP-26-56.html'
+paperurl: 'https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.pdf'
+publishedurl: 'https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html'
 appendixurl: 'https://github.com/orrcody/pseo_ai'
 citation: 'Orr, Cody, Lee C. Tucker, Lawrence Warren. (2026). &quot;Graduating into Disruption: Labor Market Outcomes for AI-Exposed College Majors.&quot; <i>CES Working Paper Series</i>. CES-26-56. https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html'
 ---
