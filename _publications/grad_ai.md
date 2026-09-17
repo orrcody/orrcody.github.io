@@ -13,6 +13,7 @@ appendixurl: 'https://github.com/orrcody/pseo_ai'
 citation: 'Orr, Cody, Lee C. Tucker, Lawrence Warren. (2026). &quot;Graduating into Disruption: Labor Market Outcomes for AI-Exposed College Majors.&quot; <i>CES Working Paper Series</i>. CES-26-56. https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html'
 media:
   - outlet: "Bloomberg"
+    title: "Graduating in AI Era Is Like 'Large Recession' for Starting Pay"
     url: "https://www.bloomberg.com/news/articles/2026-09-14/ai-era-coincides-with-weak-pay-and-employment-for-college-graduates"
 ---
 
