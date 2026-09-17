@@ -93,8 +93,8 @@
     {% endcomment %}
 
     {% if post.media %}
-      <div class="post-media-links" style="font-size: 0.85em; margin-top: 5px;">
-        <span style="color: #666;">Media Coverage:</span>
+      <div class="post-media-links" style="margin-top: 5px;">
+        <span><strong>Media Coverage:</strong></span>
         {% for item in post.media %}
           <a href="{{ item.url }}" target="_blank" style="margin-right: 10px;">{{ item.outlet }}</a>{% if forloop.last == false %}, {% endif %}
         {% endfor %}
