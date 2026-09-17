@@ -11,5 +11,9 @@ paperurl: 'https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-2
 publishedurl: 'https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html'
 appendixurl: 'https://github.com/orrcody/pseo_ai'
 citation: 'Orr, Cody, Lee C. Tucker, Lawrence Warren. (2026). &quot;Graduating into Disruption: Labor Market Outcomes for AI-Exposed College Majors.&quot; <i>CES Working Paper Series</i>. CES-26-56. https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html'
+media:
+  - outlet: "Bloomberg"
+    url: "https://www.bloomberg.com/news/articles/2026-09-14/ai-era-coincides-with-weak-pay-and-employment-for-college-graduates"
 ---
+
 How are new college graduates affected by the rise of artificial intelligence, and what can this tell us about the mechanisms behind AI's overall labor market effects? We use administrative records on college graduates to observe how economic outcomes among college majors with differing levels of labor market AI exposure have evolved since large language models became available. We find that post-graduation employment, earnings, and job switching patterns among the most AI-exposed college majors began to diverge immediately following the introduction of ChatGPT in late 2022. In regression-adjusted estimates, the most AI-exposed decile of college majors saw their likelihood of initial employment decline by five percentage points, while full-quarter initial earnings declined by thirteen percent. This earnings decline is comparable in magnitude to the earnings losses associated with graduating into a large recession. Roughly half of the decline in earnings is attributable to lower earnings within the industry sectors that employ these graduates, with the remainder resulting from a shift in the industry mix into lower-wage sectors such as restaurants and retail. The effects attenuate as graduates move further from labor market entry but remain substantial for the most exposed majors.
