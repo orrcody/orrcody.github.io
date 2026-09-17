@@ -71,6 +71,17 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% if page.media %}
+        <div class="publication-media" style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #eee;">
+          <h3>Media Coverage</h3>
+          <ul>
+            {% for item in page.media %}
+              <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
         {% if page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% endif %}
