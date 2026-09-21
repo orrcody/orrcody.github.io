@@ -15,6 +15,18 @@ media:
   - outlet: "Bloomberg"
     title: "Graduating in AI Era Is Like 'Large Recession' for Starting Pay"
     url: "https://www.bloomberg.com/news/articles/2026-09-14/ai-era-coincides-with-weak-pay-and-employment-for-college-graduates"
+  - outlet: "Fortune"
+    title: "College grads shut out of AI-exposed majors since 2022 are ending up in retail and food service instead of the white-collar jobs they studied for"
+    url: "https://fortune.com/2026/09/17/ai-chatgpt-college-majors-retail-jobs/"
+  - outlet: "LinkedIn"
+    title: "Pay cliff for new grads syncs with ChatGPT's debut"
+    url: "https://www.linkedin.com/news/story/pay-cliff-for-new-grads-syncs-with-chatgpts-debut-7605020/"
+  - outlet: "The Register"
+    title: "Compsci grads facing recession-like job prospects thanks to AI"
+    url: "https://www.theregister.com/ai-and-ml/2026/09/18/compsci-grads-facing-recession-like-job-prospects-thanks-to-ai/5297537"
+  - outlet: "Yahoo Finance"
+    title: "AI weighs heavily on recent graduates' job earnings, comparable to a 'large recession'"
+    url: "https://finance.yahoo.com/video/ai-weighs-heavily-recent-graduates-140039435.html"
 ---
 
 How are new college graduates affected by the rise of artificial intelligence, and what can this tell us about the mechanisms behind AI's overall labor market effects? We use administrative records on college graduates to observe how economic outcomes among college majors with differing levels of labor market AI exposure have evolved since large language models became available. We find that post-graduation employment, earnings, and job switching patterns among the most AI-exposed college majors began to diverge immediately following the introduction of ChatGPT in late 2022. In regression-adjusted estimates, the most AI-exposed decile of college majors saw their likelihood of initial employment decline by five percentage points, while full-quarter initial earnings declined by thirteen percent. This earnings decline is comparable in magnitude to the earnings losses associated with graduating into a large recession. Roughly half of the decline in earnings is attributable to lower earnings within the industry sectors that employ these graduates, with the remainder resulting from a shift in the industry mix into lower-wage sectors such as restaurants and retail. The effects attenuate as graduates move further from labor market entry but remain substantial for the most exposed majors.
