@@ -18,6 +18,9 @@ media:
   - outlet: "Fortune"
     title: "College grads shut out of AI-exposed majors since 2022 are ending up in retail and food service instead of the white-collar jobs they studied for"
     url: "https://fortune.com/2026/09/17/ai-chatgpt-college-majors-retail-jobs/"
+  - outlet: Inside Higher Ed
+    title: "Report: AI Created Recession-Like Job Market for Some New Grads"
+    url: "https://www.insidehighered.com/news/quick-takes/2026/09/22/ai-created-recession-job-market-some-new-grads"
   - outlet: "LinkedIn"
     title: "Pay cliff for new grads syncs with ChatGPT's debut"
     url: "https://www.linkedin.com/news/story/pay-cliff-for-new-grads-syncs-with-chatgpts-debut-7605020/"
